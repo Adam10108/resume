@@ -1,3 +1,10 @@
+import { AppBar } from "@/components/AppBar"
+import { Box } from "@radix-ui/themes"
+
 export const App = () => {
-  return <div>App</div>
+  return (
+    <Box data-testid='app'>
+      <AppBar />
+    </Box>
+  )
 }
